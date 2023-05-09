@@ -1,12 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mailchimp</title>
+    <link rel="stylesheet" href="Styles.css">
 </head>
-<body>
-    
+<body class="body">
+    <aside> <img src="https://1000marcas.net/wp-content/uploads/2021/07/Mailchimp-logo.png" alt="Mailchimp-logo" class="logo"></aside>
+    <main><header><h1>Welcome to Mailchimp</h1></header>
+    <div><p class="pa">Find your people. Engage costumers. Build your brand. Do it all with MailChimp's Marketing Platform. Already have you account? <a href="https://mailchimp.com/es">Log in</a></p></div>
+    <div><h4 class="h4">E-mail</h4></div>
+        <div>
+            <input type="email" id="email"
+                   pattern=".+@gmail.com" size="30" required
+                   placeholder="Example: ...UpgradeHub.com" class="cajas">
+        </div>
+        <div>
+            <div><h4 class="h4">Username</h4></div>
+            <input type="text" id="username" class="cajas">
+
+        </div>
+        <div>
+            <div><h4 class="h4">Password</h4></div>
+            <input type="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" class="cajas">
+        </div>
+        <ul class="ul">
+            <li>One lowercase character</li>
+            <li>One uppercase character</li>
+            <li>One number</li>
+            <li>One special character</li>
+            <li>8 characters minimun</li>
+        </ul>
+        <div class="orden">
+            <input type="button" value="Sign Up" class="button2">
+            <input type="checkbox" name="Dont" id="Dont" class="button3">
+            <div> <label for="Dont" class="label">I don't want  to recieve emails about new mailchimps products, best practices, or special offers.</label></div>
+        </div>
+    <footer class="footer">
+        <p>By clicking the "Sign Up" button, you are creating a MailChimp account, and you agree to MailChimp's <a href="https://www.google.com/search?q=terminos+de+uso+y+politicas+de+privacidad&rlz=1C1RXQR_esES1032ES1032&oq=terminos+de+uso&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM0NDdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8"> Terms of use</a> and <a href="https://www.google.com/search?q=terminos+de+uso+y+politicas+de+privacidad&rlz=1C1RXQR_esES1032ES1032&oq=terminos+de+uso&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM0NDdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8"> privaty policy</a>.</p>
+    </footer>
+    </main>
 </body>
 </html>

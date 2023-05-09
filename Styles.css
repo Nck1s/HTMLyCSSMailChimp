@@ -1,0 +1,65 @@
+.html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    height: 200px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.pa {
+    width: 500px;
+}
+
+.h4 {
+    margin-bottom: 2px;
+}
+
+.ul {
+    column-count: 2;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.cajas {
+    width: 500px;
+}
+
+.footer {
+    width: 525px;
+    margin-top: 50px;
+}
+
+.orden {
+    width: 525px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.button2 {
+    height: 50px;
+    width: 150px;
+}
+
+.button3 {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.label {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
